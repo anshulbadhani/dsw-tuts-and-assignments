@@ -1,15 +1,38 @@
-<!doctype HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<title>Question 2</title>
-<style>
-.left{
-	border: 2px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two Column Layout</title>
+    <link rel="stylesheet" href="q2.css">
 </head>
 <body>
-	<div class="left"></div>
+
+    <!-- Wrapper for the layout -->
+    <div class="wrapper">
+        <!-- Left Column -->
+        <div class="leftcolumn"> Left Column
+            <div class="navbar">
+                <p>Navbar</p>
+			</div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="rightcolumn"> Right Column
+            <div class="logo">
+                <p>Logo</p>
+            </div>
+            <div class="content">
+                <p>Main Content</p>
+				<div class="floatright">
+					<p>Floating Right Box</p>
+				</div>
+				<div class="footer">
+					<p>Footer</p>
+				</div>
+            </div>
+        </div>
+    </div>
 
 </body>
 </html>

@@ -1,0 +1,92 @@
+Global Styling
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #101010; /* Dark background for contrast */
+    color: #ffffff; /* White text */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #2a2a2a; /* Dark container background */
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ff00ff; /* Neon Pink */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+h2, h3 {
+    font-size: 2rem;
+    color: #00ff00; /* Neon Green */
+    margin: 20px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+li {
+    margin: 10px 0;
+}
+
+input[type="email"] {
+    padding: 15px;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #ff0099; /* Neon Pink */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff66cc; /* Lighten the pink on hover */
+}
+
+.testimonials {
+    margin-top: 40px;
+    font-size: 1.2rem;
+}
+
+.testimonial {
+    margin: 20px 0;
+    font-style: italic;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 1rem;
+    color: #888;
+}
