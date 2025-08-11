@@ -1,0 +1,24 @@
+* {
+    margin-left: 50;
+}
+h1 {
+    text-align: center;
+}
+p {
+    color: coral;
+}
+li {
+    color: brown;
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+div {
+    text-align: right;
+}

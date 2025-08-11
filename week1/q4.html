@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <h1 style="text-align: center;">Registration Form</h1>
+        <form action="#" method="post">
+            <table border="1">
+                <tr>
+                    <td><label for="student_name">Student Name</label></td>
+                    <td>
+                        <input type="text" id="student_name" name="student_name" placeholder="First Name" required>
+                    </td>
+                    <td>
+                        <input type="text" id="middle_name" name="middle_name" placeholder="Middle Name">
+                    </td>
+                    <td>
+                        <input type="text" id="last_name" name="last_name" placeholder="Last Name" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="father_name">Father's Name</label></td>
+                    <td colspan="3">
+                        <input type="text" id="father_name" name="father_name" placeholder="Enter your father's Name"
+                            required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="mother_name">Mother's Name</label></td>
+                    <td colspan="3">
+                        <input type="text" id="mother_name" name="mother_name" placeholder="Enter your Mother's Name"
+                            required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="dob">Date of Birth</label></td>
+                    <td colspan="3">
+                        <input type="date" id="dob" name="dob" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Gender</label></td>
+                    <td colspan="3">
+                        <label>
+                            <input type="radio" id="gender_male" name="gender" value="male"> Male
+                        </label>
+                        <label>
+                            <input type="radio" id="gender_female" name="gender" value="female"> Female
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="category">Category</label></td>
+                    <td colspan="3">
+                        <select id="category" name="category" required>
+                            <option value="gen">Gen</option>
+                            <option value="obc">OBC</option>
+                            <option value="sc_st">SC/ST</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Handicapped</label></td>
+                    <td colspan="3">
+                        <label>
+                            <input type="radio" id="handicapped_yes" name="handicapped" value="yes"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" id="handicapped_no" name="handicapped" value="no"> No
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>Ex-Serviceman</label></td>
+                    <td colspan="3">
+                        <label>
+                            <input type="radio" id="ex_serviceman_yes" name="ex_serviceman" value="yes"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" id="ex_serviceman_no" name="ex_serviceman" value="no"> No
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label>EWS</label></td>
+                    <td colspan="3">
+                        <label>
+                            <input type="radio" id="ews_yes" name="ews" value="yes"> Yes
+                        </label>
+                        <label>
+                            <input type="radio" id="ews_no" name="ews" value="no"> No
+                        </label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email ID</label></td>
+                    <td colspan="3">
+                        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="mobile">Mobile No.</label></td>
+                    <td colspan="3">
+                        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="state">State</label></td>
+                    <td colspan="3">
+                        <select id="state" name="state" required>
+                            <option value="select">Select any One</option>
+                            <!-- Add other state options as needed -->
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="city">City</label></td>
+                    <td colspan="3">
+                        <select id="city" name="city" required>
+                            <option value="select">Select any One</option>
+                            <!-- Add other city options as needed -->
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="photo">Upload Photo</label></td>
+                    <td colspan="3">
+                        <input type="file" id="photo" name="photo" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="signature">Upload Signature</label></td>
+                    <td colspan="3">
+                        <input type="file" id="signature" name="signature" required>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td colspan="3" style="text-align: center;">
+                        <button type="submit">Submit</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+</body>
+
+</html>
